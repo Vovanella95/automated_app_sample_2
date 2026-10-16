@@ -1,0 +1,23 @@
+{
+  "parent": {
+    "path": "pr_review@latest"
+  },
+  "merge": [
+    "params.cliPrompts"
+  ],
+  "params": {
+    "envVariables": {
+      "AI_AGENT_PROVIDER": "fa",
+      "FA_PROVIDER_TYPE": "anthropic",
+      "FA_PROVIDER_CONFIG": "{\"baseUrl\":\"https://api.anthropic.com\",\"model\":\"claude-sonnet-5\",\"input\":[\"text\",\"image\"],\"apiKeyEnvVar\":\"ANTHROPIC_API_KEY\"}"
+    },
+    "inputJql": "",
+    "customParams": {
+      "allowApproveWithSuggestions": true,
+      "formalGithubReview": true
+    },
+    "cliPrompts": [
+      "pack:instructions/pr_review/review_verdict_rules.md"
+    ]
+  }
+}

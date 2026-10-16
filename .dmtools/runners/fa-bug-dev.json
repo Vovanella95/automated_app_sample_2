@@ -1,0 +1,25 @@
+{
+  "parent": {
+    "path": "bug_development@latest"
+  },
+  "params": {
+    "envVariables": {
+      "DEFAULT_TRACKER": "github",
+      "AI_AGENT_PROVIDER": "fa",
+      "FA_PROVIDER_TYPE": "anthropic",
+      "FA_PROVIDER_CONFIG": "{\"baseUrl\":\"https://api.anthropic.com\",\"model\":\"claude-sonnet-5\",\"input\":[\"text\",\"image\"],\"apiKeyEnvVar\":\"ANTHROPIC_API_KEY\"}"
+    },
+    "inputJql": "",
+    "cliPromptsByTracker": {
+      "github": [
+        "pack:instructions/common/github_comment_format.md"
+      ]
+    },
+    "customParams": {
+      "targetRepository": {
+        "workingDir": ".",
+        "baseBranch": "main"
+      }
+    }
+  }
+}
