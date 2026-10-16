@@ -87,3 +87,13 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+  #
+  # Bundles the Flutter SDK's own Apache-licensed Roboto font so widget and
+  # golden tests render real glyphs instead of the default "Ahem" test font
+  # (which draws boxes for every character). See assets/fonts/ROBOTO_LICENSE.txt.
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Bold.ttf
+          weight: 700
