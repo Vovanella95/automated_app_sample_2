@@ -1,0 +1,13 @@
+{
+  "issue-3": [
+    {
+      "leg": "dev",
+      "at": "2026-10-16T13:54:55Z",
+      "prompt": 108,
+      "completion": 24769,
+      "total": 24877,
+      "cacheRead": 3364644,
+      "model": "claude-sonnet-5"
+    }
+  ]
+}
