@@ -1,0 +1,7 @@
+{
+  "key": "gh-3",
+  "fields": {
+    "summary": "Main Screen",
+    "description": "Generate login screen with strong design with company logo, login field, password box, login button. Add link to register. \n\nAdd golden test to this screen. Pay attention to golden text displaying, there can be just boxes instead of text."
+  }
+}
